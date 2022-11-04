@@ -13,14 +13,14 @@
    line-height: 1.2;
  }
 
-
-   
  
  .container {
    width: 100%;
    margin: auto;
    padding-top: 4%;
-   padding-bottom: 4%;
+   padding-bottom: 2%;
+    box-shadow: 0 0 0 1px rgba(0,0, 0, .9),
+   0 2px 3px 0 rgba(0,0, 0, .9); 
 
  }
 
@@ -51,7 +51,7 @@
 body {
     margin: 0;
     font-family: 'Sofia', sans-serif;
-    background-image: url(images/download.jfif);
+    background-image: url(images/download\ \(1\).jfif);
     color: white;
 }
 
@@ -71,4 +71,12 @@ nav {
 }
 section{
     color: white;
+}
+div.card{
+    display: flex;
+    margin: 24px;
+   padding: 36px 24px 32px 24px;
+    border-radius: 7px;  
+   box-shadow: 0 0 0 1px rgba(0,0, 0, .9),
+   0 2px 3px 0 rgba(0,0, 0, .9); 
 }
